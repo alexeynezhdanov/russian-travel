@@ -1,0 +1,28 @@
+.cover {
+    margin: 92px auto 0;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1184px;
+    max-height: 740px;
+    }
+
+.cover:hover .cover__background {
+    max-width: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+    @media screen and (max-width: 768px) {
+        .cover {
+            margin-top: 90px;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .cover {
+            margin-top: 66px;
+        }
+    }
