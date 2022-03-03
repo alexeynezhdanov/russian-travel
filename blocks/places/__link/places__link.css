@@ -1,4 +1,4 @@
-.places__website_link {
+.places__link {
     margin: 12px 0 0;
     font-style: normal;
     font-weight: normal;
@@ -9,6 +9,6 @@
     display: inline-block;
 }
 
-.places__website_link:hover {
+.places__link:hover {
     opacity: 80%;
 }
